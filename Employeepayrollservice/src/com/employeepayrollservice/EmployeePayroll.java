@@ -1,11 +1,11 @@
 package com.employeepayrollservice;
 
-public class EmployeePayRoll {
+public class EmployeePayroll {
 	int id;
 	String name;
 	double salary;
 
-	public void EmployeePayroll(int id, String name, double salary) {
+	public EmployeePayroll(int id, String name, double salary) {
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
